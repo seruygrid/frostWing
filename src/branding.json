@@ -1,0 +1,24 @@
+{
+  "brandName": "FrostWing KG",
+  "title": "Wir bringen Ihre perfekte Temperatur",
+  "company": {
+    "name": "FrostWing",
+    "url": "https://frostwind.at",
+    "socialLink": {
+      "linkedin": "#",
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "github": "#",
+      "dribble": "#",
+      "discord": "#",
+      "support": "#"
+    }
+  },
+  "logo": {
+    "main": "",
+    "logoIcon": "",
+    "logoFab": "",
+    "logoWatermark": ""
+  }
+}
