@@ -74,7 +74,6 @@ export default function ContactUsForm2() {
   const open = Boolean(anchorEl);
   const id = open ? 'dialcode-popper' : undefined;
 
-  // Initialize the form with default values and error handling
   const {
     register,
     handleSubmit,
@@ -83,7 +82,7 @@ export default function ContactUsForm2() {
     watch,
     formState: {errors},
     setValue
-  } = useForm({defaultValues: {dialcode: '+91'}});
+  } = useForm({defaultValues: {dialcode: '+43'}});
 
 
   const onSubmit = async (data) => {
@@ -98,8 +97,8 @@ export default function ContactUsForm2() {
           message: data.message
         },
       },
-    ]).then((records) => {
-      console.log('Record created:', records);
+    ]).then(() => {
+      reset()
     }).catch((error) => {
       console.error('Error creating record:', error);
     });

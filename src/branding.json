@@ -16,9 +16,9 @@
     }
   },
   "logo": {
-    "main": "",
-    "logoIcon": "",
-    "logoFab": "",
-    "logoWatermark": ""
+    "main": "/assets/images/logo.png",
+    "logoIcon": "/assets/images/logo.png",
+    "logoFab": "/assets/images/logo.png",
+    "logoWatermark": "/assets/images/logo.png"
   }
 }
